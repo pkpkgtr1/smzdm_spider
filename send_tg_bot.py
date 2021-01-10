@@ -9,7 +9,7 @@ bot = telegram.Bot(token=token)
 def send_tg_bot(lx,sp_name,sp_jg,sp_sj,sp_url,sp_jpg):
     text =f'''
     <b>{lx}</b>
-    <b>商品名称：{sp_name}</b>
+    <em>{sp_name}</em>
     <em>售价: {sp_jg}</em>
     <em>活动商家：{sp_sj}</em>
     <a href="{sp_url}">商品地址</a>
