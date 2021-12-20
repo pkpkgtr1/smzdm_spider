@@ -1,7 +1,7 @@
 import telegram
 
 chat_id = "@pkpkgtr1"  # 频道地址
-token = "1456525222:AAFF-oIy_GEsYk8WxDSuvEfj6zde12hMxW0"  # 机器人 TOKEN
+token = "1456525222:xxxx"  # 机器人 TOKEN
 bot = telegram.Bot(token=token)
 
 
